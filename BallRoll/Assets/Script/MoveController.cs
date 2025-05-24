@@ -27,7 +27,7 @@ public class MoveController : MonoBehaviour
     void Start()
     {
         //Debug.Log("반가워 유니티!!");
-
+        
         //만약 rb 변수가 null 상태라면 비어있는 상태라면
         if (rb == null) rb = GetComponent<Rigidbody>();
         //같은 오브젝트의 컴포넌트들 중 Rigidbody 컴포넌트가 있다면 참조, 연결,
